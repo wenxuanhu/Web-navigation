@@ -1,38 +1,79 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 }
+
 .main{
 	width:100%;
 	height:100%;
-	background-color:pink;
 }
 .head{
 	width: 100%;
 	height:100%;
-	background-color: #99CC33;
+	
 }
 .baidu{
 	position: relative;
-	left:400px;
+	left:270px;
 	top:100px;
-	width:600px;
+	width:800px;
 	height:100px;
+	/*background-color: white;*/
+}
+.nave-list{
+	padding: 0;
+}
+.nave-list-li{
+	position: relative;
+	top:5px;
+	left: 60px;
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+	font-size: 15px;
 }
 .box{
 	position: relative;
-	left: 250px;
+	left: 290px;
 	top:70px;
 	width:800px;
 	height:400px;
-	background-color: #99CCCC;
+	/*background-color: #99CCCC;*/
 	z-index: 3;
 	border-radius:100px;
 }
-ul{
+.search-form{
+	width:700px;
+	height: 40px;
+	display: inline;
+}
+form{
+	position: relative;
+    left: 110px;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+}
+.search-input-wrap{
+	height: 40px;
+	display: inline;
+}
+.search-form .search-span input{
+	border: 1px solid;
+	border-color:#04befb;
+	padding: 10px 30px 10px 10px;
+	width: 500px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.17) inset, 0 0 0 1px #fff;
+	outline: none;
+}
+.nave{
 	padding: 0;
 }
-li{ 
+.nave-li{ 
 	position: relative;
     top: 40px;
     display: inline-block;
@@ -43,8 +84,34 @@ li{
     font-size: 20px;
     width: 130px;
     text-align: center;
+    
 }
+.input-btn{
+	background-color: #38f;
+    border-color: #38f #38f #2e7ae5;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    height: 38px;
+    width: 102px;
+    display: inline-block;
+    vertical-align: top;
+}
+.sumbmit-btn{
+	background: #38f none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+    color: #66FFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    width: 102px;
+    text-align: center;
 }
 a{
 	text-decoration: none;
+	color:#66FFFF;
 }
