@@ -1,11 +1,16 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%;
 }
-
+.background-photo{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	min-width: 985px;
+    min-height: 959px;
+    background-repeat: no-repeat;
+}
 .main{
 	width:100%;
 	height:100%;
